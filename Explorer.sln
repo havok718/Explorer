@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AvaloniaUI", "AvaloniaUI", "{B126EFE3-83DE-4D0C-BFCB-249E4E281763}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{89EA1713-E610-4883-B295-D518781EABFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{9279C764-189B-49F6-9B62-6DD4C514A4F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explorer.WPF.UI", "WPF\Explorer.WPF.UI\Explorer.WPF.UI.csproj", "{A73354A7-782A-45E8-922B-58E2E8929BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explorer.Avalonia.UI", "Explorer.Avalonia.UI\Explorer.Avalonia.UI.csproj", "{6D300DAD-16EB-47EA-9485-2DB0A9A6B6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explorer.Shared.ViewModels", "Core\Explorer.Shared.ViewModels\Explorer.Shared.ViewModels.csproj", "{B36038A2-E015-4C93-8C07-889B1592165D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A73354A7-782A-45E8-922B-58E2E8929BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73354A7-782A-45E8-922B-58E2E8929BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73354A7-782A-45E8-922B-58E2E8929BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73354A7-782A-45E8-922B-58E2E8929BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D300DAD-16EB-47EA-9485-2DB0A9A6B6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D300DAD-16EB-47EA-9485-2DB0A9A6B6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D300DAD-16EB-47EA-9485-2DB0A9A6B6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D300DAD-16EB-47EA-9485-2DB0A9A6B6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36038A2-E015-4C93-8C07-889B1592165D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36038A2-E015-4C93-8C07-889B1592165D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36038A2-E015-4C93-8C07-889B1592165D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36038A2-E015-4C93-8C07-889B1592165D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A73354A7-782A-45E8-922B-58E2E8929BD7} = {9279C764-189B-49F6-9B62-6DD4C514A4F6}
+		{6D300DAD-16EB-47EA-9485-2DB0A9A6B6D8} = {B126EFE3-83DE-4D0C-BFCB-249E4E281763}
+		{B36038A2-E015-4C93-8C07-889B1592165D} = {89EA1713-E610-4883-B295-D518781EABFE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACC2721D-DBD2-48B7-ADD5-4E29675D84B9}
+	EndGlobalSection
+EndGlobal
